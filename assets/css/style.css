@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(25, 24, 40);
+    text-align: center;
+
+}
+
+h1 {
+    color: white;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+
+hr {
+    color:aqua;
+}
+
+select {
+    text-align: center;
+    padding: 10px;
+}
+
+.card {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.conversor {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+margin-top:18px;
+}

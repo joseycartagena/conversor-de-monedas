@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+            <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+            <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    <hr>
+    <h1>Conversor de monedas Nacional</h1>
+    <hr>
+    
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Pesos CLP</h5>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Ingrese el monto en CLP" aria-label="Username" aria-describedby="basic-addon1" id="valorInput">
+      </div>
+      <div class="conversor">
+      <p class="card-text">Moneda a convertir:</p>
+      <select name="select" id="select_coin">
+        <option value="" disabled selected>Seleccione moneda</option>
+      </select>
+      <button href="#" class="btn btn-primary" id="search">Buscar</button>
+
+      <p id="resultado-conversion"></p>
+    </div>
+</div>
+  </div>
+
+  <div class="chart">
+    <canva id="myChart"></canva>
+    </div>
+
+<script src="./assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>
